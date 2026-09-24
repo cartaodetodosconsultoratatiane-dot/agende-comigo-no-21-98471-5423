@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Todos | Tatiane - Consultora Autorizada (21) 98471-5423</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-['Inter',sans-serif] antialiased selection:bg-emerald-500 selection:text-white">
+
+    <!-- Top Urgency Bar -->
+    <div class="bg-emerald-800 text-white text-xs sm:text-sm font-semibold py-2 px-4 text-center sticky top-0 z-50 shadow-md flex items-center justify-center gap-2">
+        <i class="fa-solid fa-triangle-exclamation text-amber-300 animate-pulse"></i>
+        <span>VAGAS LIMITADAS PARA TODO O BRASIL: <strong>Sem carência e sem consulta SPC/Serasa!</strong></span>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="bg-white/90 backdrop-blur-md border-b border-slate-100 sticky top-[37px] sm:top-[41px] z-40 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-emerald-700 text-white font-black text-xl sm:text-2xl px-3 py-1.5 rounded-xl shadow-inner flex items-center gap-1.5">
+                    <i class="fa-solid fa-heart-pulse text-amber-300"></i>
+                    <span>TODOS</span>
+                </div>
+                <div>
+                    <span class="block text-xs font-bold text-slate-400 tracking-wider uppercase">Consultora Autorizada</span>
+                    <span class="block text-sm sm:text-base font-extrabold text-emerald-900">Tatiane | RJ</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-6">
+                <a href="#beneficios" class="text-sm font-semibold text-slate-600 hover:text-emerald-700 transition">Benefícios</a>
+                <a href="#especialidades" class="text-sm font-semibold text-slate-600 hover:text-emerald-700 transition">Médicos e Exames</a>
+                <a href="#cashback" class="text-sm font-semibold text-slate-600 hover:text-emerald-700 transition">Cashback & Apps</a>
+                <a href="#depoimentos" class="text-sm font-semibold text-slate-600 hover:text-emerald-700 transition">Depoimentos</a>
+            </div>
+            <div>
+                <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Quero%20fazer%20o%20meu%20Cartão%20de%20Todos%20agora%20por%20R$%2033,40!" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm shadow-lg shadow-emerald-600/30 hover:shadow-emerald-600/50 transition transform hover:-translate-y-0.5 flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Contratar no WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-emerald-950 via-emerald-900 to-teal-950 text-white py-16 sm:py-24 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Column -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-emerald-800/80 border border-emerald-600/50 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold text-emerald-200 shadow-sm">
+                        <i class="fa-solid fa-shield-heart text-amber-300"></i>
+                        <span>É mais que um cartão, é CUIDADO para toda a vida!</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
+                        Saúde de Qualidade <span class="text-amber-400">Cabe no seu Bolso!</span>
+                    </h1>
+                    <p class="text-base sm:text-xl text-emerald-100 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Consultas médicas a partir de <strong class="text-white bg-emerald-800 px-2 py-0.5 rounded">R$ 30,00</strong>, exames com até <strong class="text-amber-300">70% de desconto</strong> e até <strong>7 dependentes gratuitos</strong> inclusos!
+                    </p>
+
+                    <!-- Key highlights badges -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-xl"></i>
+                            <span class="text-xs sm:text-sm font-semibold">Sem Carência</span>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-xl"></i>
+                            <span class="text-xs sm:text-sm font-semibold">Sem SPC / Serasa</span>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10 col-span-2 sm:col-span-1 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-xl"></i>
+                            <span class="text-xs sm:text-sm font-semibold">Auxílio R$ 1.500</span>
+                        </div>
+                    </div>
+
+                    <!-- Price Box Callout -->
+                    <div class="bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 p-6 rounded-2xl shadow-2xl max-w-lg mx-auto lg:mx-0 transform hover:scale-[1.02] transition">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <span class="block text-xs uppercase font-extrabold tracking-wider opacity-80">Tudo isso por apenas:</span>
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-3xl sm:text-4xl font-black">R$ 33,40</span>
+                                    <span class="text-sm font-bold opacity-90">/ mês</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Quero%20fazer%20o%20meu%20Cartão%20de%20Todos%20por%20R$%2033,40!" target="_blank" class="bg-slate-950 text-amber-400 hover:bg-slate-900 font-extrabold px-5 py-3 rounded-xl text-sm shadow-lg flex items-center gap-2 transition">
+                                <span>QUERO FAZER</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column / Consultant Card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="bg-white text-slate-900 rounded-3xl p-6 sm:p-8 shadow-2xl w-full max-w-md border-4 border-amber-400 relative">
+                        <div class="absolute -top-4 right-6 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                            Atendimento Imediato
+                        </div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="relative">
+                                <img src="https://placehold.co/120x120/065f46/ffffff?text=Tatiane" alt="Tatiane Consultora" class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-4 border-emerald-500 shadow-md">
+                                <span class="absolute bottom-0 right-0 w-5 h-5 bg-emerald-500 border-2 border-white rounded-full"></span>
+                            </div>
+                            <div>
+                                <span class="text-xs uppercase font-bold text-emerald-700 tracking-wide">Fale com a Consultora</span>
+                                <h3 class="text-xl sm:text-2xl font-black text-slate-900">TATIANE</h3>
+                                <p class="text-xs text-slate-500 font-medium">Especialista em Benefícios</p>
+                                <div class="flex items-center gap-1 text-amber-500 text-xs mt-1">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate-600 font-bold ml-1">5.0 (Atendimento VIP)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-emerald-50 rounded-2xl p-4 mb-6 border border-emerald-100 space-y-2">
+                            <div class="flex items-center gap-3 text-sm text-slate-700">
+                                <i class="fa-solid fa-phone-volume text-emerald-600"></i>
+                                <span class="font-bold">(21) 98471-5423</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-sm text-slate-700">
+                                <i class="fa-solid fa-id-card text-emerald-600"></i>
+                                <span>Contratação direta e segura via WhatsApp</span>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Vim%20pelo%20site%20e%20quero%20contratar%20o%20Cartão%20de%20Todos%20agora!" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold py-4 rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-3 text-base sm:text-lg transition transform hover:-translate-y-0.5">
+                            <i class="fa-brands fa-whatsapp text-2xl text-amber-300"></i>
+                            <span>CHAMAR A TATIANE NO ZAP</span>
+                        </a>
+                        <p class="text-center text-[11px] text-slate-400 mt-3">Atendimento rápido, sem burocracia para todo o Rio de Janeiro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Health & Prices Section -->
+    <section id="especialidades" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Rede AmorSaúde & Parceiros</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3 mb-4">Saúde de Alto Padrão por Preços Populares</h2>
+                <p class="text-slate-600 text-base sm:text-lg">Esqueça filas longas do SUS. Tenha acesso a consultas e exames de qualidade imediata para você e sua família.</p>
+            </div>
+
+            <!-- Price grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Card 1 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-emerald-600 text-white rounded-xl flex items-center justify-center text-xl font-bold mb-4 shadow-md shadow-emerald-600/20">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Clínico Geral</h3>
+                    <p class="text-slate-500 text-sm mb-4">Atendimento rápido para diagnósticos e receitas.</p>
+                    <div class="flex items-baseline gap-1 text-emerald-700">
+                        <span class="text-xs font-bold">Apenas</span>
+                        <span class="text-3xl font-black">R$ 30,00</span>
+                        <span class="text-xs text-slate-500">/ consulta</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-teal-600 text-white rounded-xl flex items-center justify-center text-xl font-bold mb-4 shadow-md shadow-teal-600/20">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Demais Especialidades</h3>
+                    <p class="text-slate-500 text-sm mb-4">Cardiologia, Pediatria, Ginecologia, Ortopedia e mais.</p>
+                    <div class="flex items-baseline gap-1 text-teal-700">
+                        <span class="text-xs font-bold">A partir de</span>
+                        <span class="text-3xl font-black">R$ 40,00</span>
+                        <span class="text-xs text-slate-500">/ consulta</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-amber-500 text-white rounded-xl flex items-center justify-center text-xl font-bold mb-4 shadow-md shadow-amber-500/20">
+                        <i class="fa-solid fa-microscope"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Exames & Imagem</h3>
+                    <p class="text-slate-500 text-sm mb-4">Exames de sangue, ultrassom, raio-x e muito mais.</p>
+                    <div class="flex items-baseline gap-1 text-amber-600">
+                        <span class="text-xs font-bold">Até</span>
+                        <span class="text-3xl font-black">70%</span>
+                        <span class="text-xs text-slate-500">de desconto</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Specialties List Pill Cloud -->
+            <div class="bg-emerald-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl">
+                <div class="text-center max-w-2xl mx-auto mb-8">
+                    <h3 class="text-2xl sm:text-3xl font-black mb-3">Mais de 20 Áreas Médicas à sua Disposição</h3>
+                    <p class="text-emerald-200 text-sm sm:text-base">Confira algumas das especialidades disponíveis na rede parceira:</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Cardiologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Pediatria</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Dermatologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Ginecologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Oftalmologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Endocrinologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Nutrição</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Ortopedia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Psicologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Fisioterapia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Urologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Neurologia</span>
+                    <span class="bg-emerald-800 text-emerald-100 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full border border-emerald-700">Odontologia (Até 35%)</span>
+                </div>
+                <div class="mt-8 text-center">
+                    <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Gostaria%20de%20saber%20se%20tem%20especialista%20em%20[Digite%20sua%20especialidade]%20na%20minha%20região!" target="_blank" class="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-extrabold px-6 py-3 rounded-xl text-sm shadow-lg transition">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>CONSULTAR DISPONIBILIDADE NO ZAP</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dependents & Extra Benefits -->
+    <section id="beneficios" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left info -->
+                <div class="space-y-6">
+                    <span class="bg-emerald-200 text-emerald-900 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Família Protegida</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900">Até 7 Dependentes Gratuitos no Mesmo Plano!</h2>
+                    <p class="text-slate-600 text-base sm:text-lg">Você paga apenas R$ 33,40 por mês e pode incluir sua família sem pagar nada a mais por isso.</p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs mt-1 flex-shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <strong class="block text-slate-900">Cônjuge (Esposo/Esposa)</strong>
+                                <span class="text-sm text-slate-500">Não precisa ser casado no papel. Toda regra pode ter exceção!</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs mt-1 flex-shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <strong class="block text-slate-900">Filhos e Enteados</strong>
+                                <span class="text-sm text-slate-500">Filhos até 21 anos de idade.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs mt-1 flex-shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <strong class="block text-slate-900">Pais ou Sogra/Sogro</strong>
+                                <span class="text-sm text-slate-500">Pais acima de 60 anos também podem ser incluídos.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Funeral Assistance Card -->
+                <div class="bg-gradient-to-br from-emerald-900 to-slate-900 text-white rounded-3xl p-8 sm:p-10 shadow-2xl relative border border-emerald-800">
+                    <div class="absolute top-6 right-6 bg-amber-400 text-slate-950 font-black text-xs px-3 py-1 rounded-full">
+                        BÔNUS EXCLUSIVO
+                    </div>
+                    <div class="w-14 h-14 bg-amber-400/20 text-amber-300 rounded-2xl flex items-center justify-center text-2xl mb-6 border border-amber-400/30">
+                        <i class="fa-solid fa-hands-holding-child"></i>
+                    </div>
+                    <h3 class="text-2xl font-black mb-3">Auxílio Funeral de R$ 1.500,00</h3>
+                    <p class="text-emerald-200 text-sm mb-6 leading-relaxed">
+                        Em caso de falecimento do titular, cônjuge, filhos, pai e mãe, você conta com suporte financeiro para momentos delicados (*de acordo com as regras da seguradora).
+                    </p>
+                    <div class="bg-white/10 p-4 rounded-2xl border border-white/10 mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-bolt text-amber-300 text-xl"></i>
+                        <span class="text-xs sm:text-sm font-semibold">Sem consulta ao SPC/Serasa para aprovação do cadastro!</span>
+                    </div>
+                    <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Quero%20garantir%20meu%20Cartão%20de%20Todos%20com%20auxílio%20funeral!" target="_blank" class="w-full bg-amber-400 hover:bg-amber-500 text-slate-950 font-extrabold py-3.5 rounded-xl text-center block shadow-lg transition">
+                        GARANTIR BENEFÍCIO FAMILIAR
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cashback & Partners -->
+    <section id="cashback" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Economia Real Todo Dia</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3 mb-4">Descontos e Cashback em Grandes Marcas</h2>
+                <p class="text-slate-600 text-base sm:text-lg">Compre nas melhores farmácias, supermercados, postos e aplicativos recebendo parte do seu dinheiro de volta direto no app!</p>
+            </div>
+
+            <!-- Pharmacy and Local partners -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center shadow-sm">
+                    <i class="fa-solid fa-pills text-emerald-600 text-3xl mb-3"></i>
+                    <h4 class="font-bold text-slate-900 text-sm">Drogasil & Raia</h4>
+                    <span class="text-xs text-emerald-700 font-semibold">Até descontos especiais</span>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center shadow-sm">
+                    <i class="fa-solid fa-glasses text-emerald-600 text-3xl mb-3"></i>
+                    <h4 class="font-bold text-slate-900 text-sm">Óticas Parceiras</h4>
+                    <span class="text-xs text-emerald-700 font-semibold">Economia em armações</span>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center shadow-sm">
+                    <i class="fa-solid fa-graduation-cap text-emerald-600 text-3xl mb-3"></i>
+                    <h4 class="font-bold text-slate-900 text-sm">Refuturiza Ensino</h4>
+                    <span class="text-xs text-emerald-700 font-semibold">+1.200 cursos inclusos</span>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center shadow-sm">
+                    <i class="fa-solid fa-wallet text-emerald-600 text-3xl mb-3"></i>
+                    <h4 class="font-bold text-slate-900 text-sm">Gift Cards & Apps</h4>
+                    <span class="text-xs text-emerald-700 font-semibold">Uber, iFood, Spotify e+</span>
+                </div>
+            </div>
+
+            <!-- Refuturiza spotlight -->
+            <div class="bg-gradient-to-r from-teal-900 to-emerald-950 text-white rounded-3xl p-8 sm:p-12 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8">
+                <div class="space-y-4 max-w-xl">
+                    <span class="bg-amber-400 text-slate-950 font-black text-xs px-3 py-1 rounded-full uppercase">Educação e Empregabilidade</span>
+                    <h3 class="text-2xl sm:text-3xl font-black">Plataforma Refuturiza Gratuita para Assinantes</h3>
+                    <p class="text-emerald-100 text-sm sm:text-base leading-relaxed">
+                        Invista no seu futuro profissional. Tenha acesso a mais de 1.200 cursos profissionalizantes com certificado de conclusão. Válido também como horas complementares para faculdade!
+                    </p>
+                </div>
+                <div class="flex-shrink-0">
+                    <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Quero%20saber%20mais%20sobre%20os%20cursos%20da%20Refuturiza!" target="_blank" class="bg-amber-400 hover:bg-amber-500 text-slate-950 font-extrabold px-8 py-4 rounded-xl shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>QUERO ESTUDAR TAMBÉM</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Histórias Reais</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3 mb-4">O que dizem nossos clientes no Rio de Janeiro</h2>
+                <p class="text-slate-600 text-base sm:text-lg">Milhares de famílias já economizam todos os meses com o Cartão de Todos.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200 relative">
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6 italic">
+                        "Fui atendida pela Tatiane e foi super rápido. Consegui marcar consulta com cardiologista baratinho e ainda incluo meus dois filhos e meu marido sem pagar nada a mais!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-emerald-600 text-white font-bold rounded-full flex items-center justify-center">
+                            CM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Carla Monteiro</h4>
+                            <span class="text-xs text-slate-400">Centro, Rio de Janeiro - RJ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200 relative">
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6 italic">
+                        "Salvou minha vida! Precisava de exames de imagem urgente e o preço no laboratório particular estava absurdamente caro. Com o cartão consegui quase 70% de desconto."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-teal-600 text-white font-bold rounded-full flex items-center justify-center">
+                            JS
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Jorge Silva</h4>
+                            <span class="text-xs text-slate-400">Zona Sul, Rio de Janeiro - RJ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200 relative">
+                    <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm mb-6 italic">
+                        "A consultora Tatiane tirou todas as minhas dúvidas pelo WhatsApp. Fiz o cartão na hora e já estou usando na farmácia e com dentista. Recomendo demais!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-amber-500 text-white font-bold rounded-full flex items-center justify-center">
+                            AP
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Ana Paula</h4>
+                            <span class="text-xs text-slate-400">Tijuca, Rio de Janeiro - RJ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Tire suas dúvidas</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-3 mb-4">Perguntas Frequentes</h2>
+                <p class="text-slate-600">Tudo o que você precisa saber antes de adquirir o seu Cartão de Todos.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-toggle w-full p-6 text-left font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>Como faço para usar o cartão após a contratação?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100">
+                        O Cartão de Todos não tem carência! Assim que o pagamento da primeira mensalidade é confirmado, você já pode agendar suas consultas na rede AmorSaúde e utilizar os descontos em farmácias e parceiros imediatamente.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-toggle w-full p-6 text-left font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>Preciso comprovar renda ou passar por consulta SPC/Serasa?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100">
+                        Não! O Cartão de Todos é um cartão de benefícios por assinatura. Não há consulta ao SPC ou Serasa e nem exigência de comprovação de renda. Qualquer pessoa pode fazer.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-toggle w-full p-6 text-left font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>Quantos dependentes posso cadastrar gratuitamente?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100">
+                        Você pode cadastrar até 7 dependentes sem pagar nada a mais por isso: cônjuge (esposo(a) - não precisa ser casado no papel), filhos até 21 anos, e pais acima de 60 anos.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-toggle w-full p-6 text-left font-bold text-slate-900 bg-slate-50 hover:bg-slate-100 flex justify-between items-center transition">
+                        <span>Como funciona o atendimento com a consultora Tatiane?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100">
+                        Basta clicar em qualquer botão do WhatsApp nesta página (ou no número (21) 98471-5423). A Tatiane fará o seu atendimento personalizado, tirará todas as dúvidas e concluirá sua contratação com segurança e rapidez.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Banner -->
+    <section class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 text-white py-20 relative overflow-hidden text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
+            <span class="bg-amber-400 text-slate-950 text-xs font-extrabold px-4 py-1.5 rounded-full uppercase tracking-wider">Não deixe para depois</span>
+            <h2 class="text-3xl sm:text-5xl font-black tracking-tight">Cuide da sua saúde e da sua família hoje mesmo!</h2>
+            <p class="text-emerald-200 text-base sm:text-xl max-w-2xl mx-auto">
+                Por apenas <strong class="text-white">R$ 33,40 por mês</strong>, tenha acesso a médicos, dentistas, exames e benefícios exclusivos no Rio de Janeiro.
+            </p>
+            <div class="pt-4">
+                <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Estou%20no%20site%20e%20quero%20contratar%20o%20Cartão%20de%20Todos%20agora!" target="_blank" class="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-8 py-4 sm:py-5 rounded-2xl text-base sm:text-lg shadow-2xl transition transform hover:scale-105">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>FALAR COM A TATIANE (21 98471-5423)</span>
+                </a>
+            </div>
+            <p class="text-xs text-emerald-300">Atendimento humanizado via WhatsApp • Sem carência • Sem consulta SPC/Serasa</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+            <div>
+                <div class="flex items-center justify-center md:justify-start gap-2 mb-2">
+                    <span class="text-white font-black text-lg">CARTÃO DE TODOS</span>
+                    <span class="bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">RJ</span>
+                </div>
+                <p>Consultora Autorizada: <strong>Tatiane</strong> | WhatsApp: <strong>(21) 98471-5423</strong></p>
+                <p class="text-xs text-slate-500 mt-1">Este site é uma página de vendas oficial para atendimento digital e tráfego pago.</p>
+            </div>
+            <div class="text-slate-500 text-xs">
+                &copy; 2026 Cartão de Todos - Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5521984715423?text=Olá%20Tatiane!%20Vim%20pelo%20site%20e%20quero%20fazer%20o%20meu%20Cartão%20de%20Todos!" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl transition transform hover:scale-110 animate-bounce group" aria-label="WhatsApp da Tatiane">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="absolute right-full mr-3 bg-slate-900 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-150 transition pointer-events-none">
+            Fale com a Tatiane 📱
+        </span>
+    </a>
+
+    <!-- Custom JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
